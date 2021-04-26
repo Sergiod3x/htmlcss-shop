@@ -1,0 +1,186 @@
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility class */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.fl {
+    float:left;
+    
+}
+
+.fr {
+    float: right;
+}
+
+/* Fine utility class */
+
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+
+.layover{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:contain; 
+  } 
+
+
+.first, .second, .third {
+    height: 562px;
+    color: rgba(77, 40, 40, 0.5);
+}
+
+h4{
+    color: black;
+    padding: 5px;
+    padding-left: 0px ;
+}
+
+
+
+
+.small.img{
+    height: 462px;
+    background-repeat: no-repeat;
+    background-size:contain;    
+}
+
+
+.first {
+    width: calc(33.33% - 10px);
+    margin-right: 15px;
+}
+
+.second {
+    width: calc(33.33% - 10px);
+    margin-right: 15px;
+}
+.third {
+    width: calc(33.33% - 10px);
+}
+
+
+
+
+
+#one{
+    z-index: 2;
+    background-image: url(../img/1.webp);
+    
+}
+
+#two{
+    z-index: 2;
+    background-image: url(../img/2.webp);
+    
+}
+
+#three{
+    z-index: 2;
+    background-image: url(../img/3.webp );
+    
+}
+
+#four{
+    z-index: 2;
+    background-image: url(../img/4.webp);
+    
+}
+
+#five{
+    z-index: 2;
+    background-image: url(../img/5.webp);
+    
+}
+
+#six{
+    z-index: 2;
+    background-image: url(../img/6.webp );
+    
+}
+
+/* immagini alternative */
+
+#one .layover{
+    z-index: 2;
+    background-image: url(../img/1-hover.webp);
+    display: none;
+    
+    
+}
+
+#two .layover{
+    z-index: 2;
+    background-image: url(../img/2-hover.webp);
+    display: none;
+    
+}
+
+#three .layover{
+    z-index: 2;
+    background-image: url(../img/3-hover.webp );
+    display: none;
+    
+}
+
+#four .layover{
+    z-index: 2;
+    background-image: url(../img/4-hover.webp);
+    display: none;
+    
+}
+
+#five .layover{
+    z-index: 2;
+    background-image: url(../img/5-hover.webp);
+    display: none;
+    
+}
+
+#six .layover{
+    z-index: 2;
+    background-image: url(../img/6-hover.webp);
+    display: none;
+    
+}
+
+
+
+#one:hover .layover {
+    display:block;
+}
+
+#two:hover .layover {
+display:block;
+}
+#three:hover .layover {
+display:block;
+}
+#four:hover .layover {
+display:block;
+}
+#five:hover .layover {
+display:block;
+}
+#six:hover .layover {
+display:block;
+}
+
