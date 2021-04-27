@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Utility class */
@@ -32,6 +31,7 @@
 .container {
     max-width: 990px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 
@@ -44,14 +44,19 @@
 
 
 .first, .second, .third {
-    height: 562px;
-    color: rgba(77, 40, 40, 0.5);
+    height: 542px;
+    position: relative;
 }
 
-h4{
+.main-page{
+    padding-bottom: 50px;
+}
+
+h5{
     color: black;
     padding: 5px;
     padding-left: 0px ;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -82,37 +87,36 @@ h4{
 
 
 #one{
-    z-index: 2;
     background-image: url(../img/1.webp);
     
 }
 
 #two{
-    z-index: 2;
+     
     background-image: url(../img/2.webp);
     
 }
 
 #three{
-    z-index: 2;
+     
     background-image: url(../img/3.webp );
     
 }
 
 #four{
-    z-index: 2;
+     
     background-image: url(../img/4.webp);
     
 }
 
 #five{
-    z-index: 2;
+     
     background-image: url(../img/5.webp);
     
 }
 
 #six{
-    z-index: 2;
+     
     background-image: url(../img/6.webp );
     
 }
@@ -120,43 +124,42 @@ h4{
 /* immagini alternative */
 
 #one .layover{
-    z-index: 2;
     background-image: url(../img/1-hover.webp);
-    display: none;
+display: none;
+    
     
     
 }
 
 #two .layover{
-    z-index: 2;
     background-image: url(../img/2-hover.webp);
     display: none;
     
 }
 
 #three .layover{
-    z-index: 2;
+     
     background-image: url(../img/3-hover.webp );
     display: none;
     
 }
 
 #four .layover{
-    z-index: 2;
+     
     background-image: url(../img/4-hover.webp);
     display: none;
     
 }
 
 #five .layover{
-    z-index: 2;
+     
     background-image: url(../img/5-hover.webp);
     display: none;
     
 }
 
 #six .layover{
-    z-index: 2;
+     
     background-image: url(../img/6-hover.webp);
     display: none;
     
@@ -169,18 +172,60 @@ h4{
 }
 
 #two:hover .layover {
-display:block;
+    display:block;
 }
 #three:hover .layover {
-display:block;
+    display:block;
 }
 #four:hover .layover {
-display:block;
+    display:block;
 }
 #five:hover .layover {
-display:block;
+    display:block;
 }
 #six:hover .layover {
-display:block;
+    display:block;
 }
 
+#green-bg{
+    background-color: rgb(67, 119, 67);
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+
+.text{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.price{
+    padding: 15px 15px 15px 0px;
+    font-weight: bold ;
+}
+
+.price.red{
+    color: red;
+}
+
+
+.etichette{
+    display: inline-block;
+    position: absolute;
+    bottom: 95px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold ;
+    color: white;
+    font-size:small;
+  
+  }
+
+  .discount{
+      background-color: rgb(255, 0, 76);
+      padding: 5px;
+  }
+
+  .sostenibilità{
+      background-color: teal;
+      padding: 5px;
+  }
